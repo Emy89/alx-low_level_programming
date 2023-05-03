@@ -9,14 +9,13 @@
  * Return: Nothing
 */
 
-void _puts(char *str)
+#include <stdio.h>
 {
-
-	while
-		(*str != '\0');
+void _puts(char *str)
+	while (*str != '\0')
 	{
-		_putchar(*str + 0);
-		str++;
+	ptchar(*str);
+	str++;
 	}
-	_putchar('\n';)
+	putchar('\n');
 }
